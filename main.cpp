@@ -8,6 +8,10 @@ int main()
 
 	std::cout << "come back home" << std::endl;
 
+	std::cout << "home" << std::endl;
+
+
+
 	return 0;
 
  }
