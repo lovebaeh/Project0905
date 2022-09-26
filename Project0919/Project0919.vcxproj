@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{124dfc61-9894-4305-9e3b-81ceaff17845}</ProjectGuid>
-    <RootNamespace>Project0914</RootNamespace>
+    <ProjectGuid>{5121785f-2749-4262-96b1-4d496f8bd010}</ProjectGuid>
+    <RootNamespace>Project0919</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -139,19 +139,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\Project\main.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="..\Project\main1.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="..\Project\main2-1.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="main3-1.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="main4.cpp" />
+    <ClCompile Include="Draw.cpp" />
+    <ClCompile Include="Global.cpp" />
+    <ClCompile Include="Init.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Shuffle.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Draw.h" />
+    <ClInclude Include="Global.h" />
+    <ClInclude Include="Init.h" />
+    <ClInclude Include="Shuffle.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

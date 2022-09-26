@@ -15,20 +15,34 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\Project\main2-1.cpp">
+    <ClCompile Include="main.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="..\Project\main1.cpp">
+    <ClCompile Include="Global.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="..\Project\main.cpp">
+    <ClCompile Include="Init.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="main3-1.cpp">
+    <ClCompile Include="Shuffle.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="main4.cpp">
+    <ClCompile Include="Draw.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Global.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Init.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Shuffle.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Draw.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

@@ -15,19 +15,16 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\Project\main2-1.cpp">
+    <ClCompile Include="main.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="..\Project\main1.cpp">
+    <ClCompile Include="main1.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="..\Project\main.cpp">
+    <ClCompile Include="main2cpp.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="main3-1.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="main4.cpp">
+    <ClCompile Include="ex.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
